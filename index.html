@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+  <div class ="form-container">
+
+    <form class = "form">
+      <label for="nombre">Nombre del paciente:</label>
+      <input type="text" id="nombre" required>
+      
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fechaNacimiento" required>
+      
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" required>
+      
+        <label for="tipoDocumento">Tipo de documento:</label>
+        <select id="tipoDocumento" required>
+          <option value="DUI">DUI</option>
+          <option value="Pasaporte">Pasaporte</option>
+        </select>
+      
+        <label for="numeroDocumento">Número de documento:</label>
+        <input type="text" id="numeroDocumento" required>
+        
+        <label for="telefono">Número de teléfono:</label>
+        <input type="text" id="telefono" required>
+        
+        <label for="motivoConsulta">Motivo de consulta:</label>
+        <textarea id="motivoConsulta" required></textarea>
+        
+        <button type="button" id="guardar">Guardar</button>
+      </form>
+    </div>
+    
+    </body>
+</html>
